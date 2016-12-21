@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FC714E6AE470A9AD29298F035E1342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		04060A1DDFFC93A65C13F1BC8C37D038 /* FaceIdAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA01A24E9B0DB191534CDDB2B01D203 /* FaceIdAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06CF4D28D0C9B0F2A47B6F0C969879A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0AE847AA55D01D8893DCEAE3D7878028 /* Pods-FaceIdAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B099A7197E8E03A19429CC94F5185 /* Pods-FaceIdAPI_Tests-dummy.m */; };
+		2DBF7A298A40BCC49B39A72DA1B447B2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF876AD3A5FC54929D925382D5D225 /* ReplaceMe.swift */; };
+		4221316A59AC56473102E95FB8A7CC03 /* Pods-FaceIdAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E6FCB4B94CCD5CEB71EFCB52A2107 /* Pods-FaceIdAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E08591FE4A99E1B37C9B58DA2AC56BD /* FaceIdAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1ED8DF31B47645AC4BE68CD4BA8F3A /* FaceIdAPI-dummy.m */; };
+		B0B70B91A698E04C2A359C9A85BBDC97 /* Pods-FaceIdAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84000E85FCE96365848E4DD736DC6D38 /* Pods-FaceIdAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B490D28DEBCB023F952D480F13FFC43B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E43660D2AE0C24BB730BC1DDF8957CD7 /* Pods-FaceIdAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE54C68B99759496203A01015C5947E2 /* Pods-FaceIdAPI_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E536CA8714E266DD9C8CEAB884F71134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F7656398B230CB17FC965FCD963B79;
+			remoteInfo = FaceIdAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041714D3651E6E512EF23E8A60B628F1 /* Pods-FaceIdAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceIdAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1342BA5FF47474D828C3E2D0D45933C8 /* FaceIdAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FaceIdAPI.framework; path = FaceIdAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4230CB7084DF346FF99F3F66734D2D /* Pods-FaceIdAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceIdAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3ACB9A22563B19F2FC340A6D5B4531AB /* Pods-FaceIdAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceIdAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		403649686AC67C6C18E31265C8CA28BC /* Pods-FaceIdAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceIdAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		524264D05A7377302EA83FB829EFCEEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D97EA591730D51471D307DE3EA6EE8 /* Pods_FaceIdAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaceIdAPI_Tests.framework; path = "Pods-FaceIdAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6227A8561621F6DD9F1B118B08C3F7F1 /* Pods-FaceIdAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceIdAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67221F3F213A38D1477290DAF3161E64 /* Pods_FaceIdAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaceIdAPI_Example.framework; path = "Pods-FaceIdAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9B099A7197E8E03A19429CC94F5185 /* Pods-FaceIdAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceIdAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		6EDE94DF3462E666549E6EF49D6DE171 /* Pods-FaceIdAPI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceIdAPI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		84000E85FCE96365848E4DD736DC6D38 /* Pods-FaceIdAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceIdAPI_Example-umbrella.h"; sourceTree = "<group>"; };
+		8701654EBB1D5FEA3974D3FE7180F4B9 /* Pods-FaceIdAPI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceIdAPI_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98C1823EBECAB0B4AEA7D6052F27D931 /* Pods-FaceIdAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceIdAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF63505E14AC8922BF33172C87D68A0A /* FaceIdAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceIdAPI.xcconfig; sourceTree = "<group>"; };
+		B4D596FE1163934E8FF2A25E8116C462 /* Pods-FaceIdAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FaceIdAPI_Example.modulemap"; sourceTree = "<group>"; };
+		BB5FE04A9DC50686F96A0BF20DA6FA00 /* FaceIdAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceIdAPI-prefix.pch"; sourceTree = "<group>"; };
+		BFDB3F636EE479BC95C9DB1AA703FED7 /* Pods-FaceIdAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceIdAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C24E6FCB4B94CCD5CEB71EFCB52A2107 /* Pods-FaceIdAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceIdAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C93B109FEF63490C18A98E21F37E1A1C /* Pods-FaceIdAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FaceIdAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		CB1ED8DF31B47645AC4BE68CD4BA8F3A /* FaceIdAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaceIdAPI-dummy.m"; sourceTree = "<group>"; };
+		CBA46CF4035BA45A3B87CBF57B4DDFE5 /* Pods-FaceIdAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceIdAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1A91A61B7C2EB26E1F2DE4B3BF0A4B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1EC25B4DF7790AF8DE9DF8BD111BEC /* Pods-FaceIdAPI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceIdAPI_Example-resources.sh"; sourceTree = "<group>"; };
+		E5051EB1E13906420BC2FC947B497B7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA783CDE39F4788C86136A03F2A45695 /* FaceIdAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FaceIdAPI.modulemap; sourceTree = "<group>"; };
+		EE54C68B99759496203A01015C5947E2 /* Pods-FaceIdAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceIdAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		EECF876AD3A5FC54929D925382D5D225 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		F99A628B202C9526D7CCB6B057742B2B /* Pods-FaceIdAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceIdAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEA01A24E9B0DB191534CDDB2B01D203 /* FaceIdAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceIdAPI-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDBC886B360EE97FC5C04E74EFC9E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FC714E6AE470A9AD29298F035E1342 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E423B8603C71297ED2B3EE4B4FE30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CF4D28D0C9B0F2A47B6F0C969879A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40BA4DFE64D1521F94CAFD1DCF236EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B490D28DEBCB023F952D480F13FFC43B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC504B1242B5E34404974898850B5EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB71EFBE1E1102437E35E3950A21C6F /* Pods-FaceIdAPI_Example */,
+				8376F752D9C93B6A1FB5FA9A7E0B2DBA /* Pods-FaceIdAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45ABF20A6D595D03E52A4A99EB22C972 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C1F4473C30424FA7607AEDCB2656A /* FaceIdAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		505FF06F1AC86A26E51513F19423F007 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA783CDE39F4788C86136A03F2A45695 /* FaceIdAPI.modulemap */,
+				AF63505E14AC8922BF33172C87D68A0A /* FaceIdAPI.xcconfig */,
+				CB1ED8DF31B47645AC4BE68CD4BA8F3A /* FaceIdAPI-dummy.m */,
+				BB5FE04A9DC50686F96A0BF20DA6FA00 /* FaceIdAPI-prefix.pch */,
+				FEA01A24E9B0DB191534CDDB2B01D203 /* FaceIdAPI-umbrella.h */,
+				D1A91A61B7C2EB26E1F2DE4B3BF0A4B9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FaceIdAPI";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				45ABF20A6D595D03E52A4A99EB22C972 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				82A01EC86F17BCE8176336BEE7DDE556 /* Products */,
+				2EC504B1242B5E34404974898850B5EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82A01EC86F17BCE8176336BEE7DDE556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1342BA5FF47474D828C3E2D0D45933C8 /* FaceIdAPI.framework */,
+				67221F3F213A38D1477290DAF3161E64 /* Pods_FaceIdAPI_Example.framework */,
+				58D97EA591730D51471D307DE3EA6EE8 /* Pods_FaceIdAPI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8376F752D9C93B6A1FB5FA9A7E0B2DBA /* Pods-FaceIdAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				524264D05A7377302EA83FB829EFCEEF /* Info.plist */,
+				C93B109FEF63490C18A98E21F37E1A1C /* Pods-FaceIdAPI_Tests.modulemap */,
+				98C1823EBECAB0B4AEA7D6052F27D931 /* Pods-FaceIdAPI_Tests-acknowledgements.markdown */,
+				F99A628B202C9526D7CCB6B057742B2B /* Pods-FaceIdAPI_Tests-acknowledgements.plist */,
+				6A9B099A7197E8E03A19429CC94F5185 /* Pods-FaceIdAPI_Tests-dummy.m */,
+				6EDE94DF3462E666549E6EF49D6DE171 /* Pods-FaceIdAPI_Tests-frameworks.sh */,
+				8701654EBB1D5FEA3974D3FE7180F4B9 /* Pods-FaceIdAPI_Tests-resources.sh */,
+				C24E6FCB4B94CCD5CEB71EFCB52A2107 /* Pods-FaceIdAPI_Tests-umbrella.h */,
+				041714D3651E6E512EF23E8A60B628F1 /* Pods-FaceIdAPI_Tests.debug.xcconfig */,
+				1E4230CB7084DF346FF99F3F66734D2D /* Pods-FaceIdAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-FaceIdAPI_Tests";
+			path = "Target Support Files/Pods-FaceIdAPI_Tests";
+			sourceTree = "<group>";
+		};
+		AEB71EFBE1E1102437E35E3950A21C6F /* Pods-FaceIdAPI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E5051EB1E13906420BC2FC947B497B7D /* Info.plist */,
+				B4D596FE1163934E8FF2A25E8116C462 /* Pods-FaceIdAPI_Example.modulemap */,
+				CBA46CF4035BA45A3B87CBF57B4DDFE5 /* Pods-FaceIdAPI_Example-acknowledgements.markdown */,
+				403649686AC67C6C18E31265C8CA28BC /* Pods-FaceIdAPI_Example-acknowledgements.plist */,
+				EE54C68B99759496203A01015C5947E2 /* Pods-FaceIdAPI_Example-dummy.m */,
+				3ACB9A22563B19F2FC340A6D5B4531AB /* Pods-FaceIdAPI_Example-frameworks.sh */,
+				DD1EC25B4DF7790AF8DE9DF8BD111BEC /* Pods-FaceIdAPI_Example-resources.sh */,
+				84000E85FCE96365848E4DD736DC6D38 /* Pods-FaceIdAPI_Example-umbrella.h */,
+				6227A8561621F6DD9F1B118B08C3F7F1 /* Pods-FaceIdAPI_Example.debug.xcconfig */,
+				BFDB3F636EE479BC95C9DB1AA703FED7 /* Pods-FaceIdAPI_Example.release.xcconfig */,
+			);
+			name = "Pods-FaceIdAPI_Example";
+			path = "Target Support Files/Pods-FaceIdAPI_Example";
+			sourceTree = "<group>";
+		};
+		B929CE707EC84683F00EE42A4CFF88A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EECF876AD3A5FC54929D925382D5D225 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6FDF504D571D7A74F0A78BC979E573E /* FaceIdAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B929CE707EC84683F00EE42A4CFF88A4 /* Classes */,
+			);
+			name = FaceIdAPI;
+			path = FaceIdAPI;
+			sourceTree = "<group>";
+		};
+		CB1C1F4473C30424FA7607AEDCB2656A /* FaceIdAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDF504D571D7A74F0A78BC979E573E /* FaceIdAPI */,
+				505FF06F1AC86A26E51513F19423F007 /* Support Files */,
+			);
+			name = FaceIdAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		117B5E08DB53507EB53038C4A65C8359 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B70B91A698E04C2A359C9A85BBDC97 /* Pods-FaceIdAPI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F0B6A92825BCC86CA493BEE1613A47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04060A1DDFFC93A65C13F1BC8C37D038 /* FaceIdAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F4EBCF934E9A68046229B94A2CCF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4221316A59AC56473102E95FB8A7CC03 /* Pods-FaceIdAPI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03CB0ED1F20EE8008E1313E78FCDE8CC /* Pods-FaceIdAPI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1110A79366875832F74A9EE4D14AFD39 /* Build configuration list for PBXNativeTarget "Pods-FaceIdAPI_Example" */;
+			buildPhases = (
+				C4F8C0F71AE76F94E53ED84447FA347A /* Sources */,
+				F40BA4DFE64D1521F94CAFD1DCF236EC /* Frameworks */,
+				117B5E08DB53507EB53038C4A65C8359 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BF4DE865F30FBCE40732DB0F141882 /* PBXTargetDependency */,
+			);
+			name = "Pods-FaceIdAPI_Example";
+			productName = "Pods-FaceIdAPI_Example";
+			productReference = 67221F3F213A38D1477290DAF3161E64 /* Pods_FaceIdAPI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DC4F845F5F1E518812ACE515CAC01A0 /* Pods-FaceIdAPI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4428E819A23D921ADC896225DB8D8126 /* Build configuration list for PBXNativeTarget "Pods-FaceIdAPI_Tests" */;
+			buildPhases = (
+				EE29F84C026AA1F211E2C6692C259F3B /* Sources */,
+				F1E423B8603C71297ED2B3EE4B4FE30A /* Frameworks */,
+				252F4EBCF934E9A68046229B94A2CCF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FaceIdAPI_Tests";
+			productName = "Pods-FaceIdAPI_Tests";
+			productReference = 58D97EA591730D51471D307DE3EA6EE8 /* Pods_FaceIdAPI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2F7656398B230CB17FC965FCD963B79 /* FaceIdAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8255A0213475CB279DE98E66A608D20E /* Build configuration list for PBXNativeTarget "FaceIdAPI" */;
+			buildPhases = (
+				95DF785FDD71A369FDB2BF1FF1060532 /* Sources */,
+				CFDBC886B360EE97FC5C04E74EFC9E71 /* Frameworks */,
+				23F0B6A92825BCC86CA493BEE1613A47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceIdAPI;
+			productName = FaceIdAPI;
+			productReference = 1342BA5FF47474D828C3E2D0D45933C8 /* FaceIdAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 82A01EC86F17BCE8176336BEE7DDE556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F7656398B230CB17FC965FCD963B79 /* FaceIdAPI */,
+				03CB0ED1F20EE8008E1313E78FCDE8CC /* Pods-FaceIdAPI_Example */,
+				5DC4F845F5F1E518812ACE515CAC01A0 /* Pods-FaceIdAPI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DF785FDD71A369FDB2BF1FF1060532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E08591FE4A99E1B37C9B58DA2AC56BD /* FaceIdAPI-dummy.m in Sources */,
+				2DBF7A298A40BCC49B39A72DA1B447B2 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F8C0F71AE76F94E53ED84447FA347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43660D2AE0C24BB730BC1DDF8957CD7 /* Pods-FaceIdAPI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29F84C026AA1F211E2C6692C259F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE847AA55D01D8893DCEAE3D7878028 /* Pods-FaceIdAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57BF4DE865F30FBCE40732DB0F141882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceIdAPI;
+			target = A2F7656398B230CB17FC965FCD963B79 /* FaceIdAPI */;
+			targetProxy = E536CA8714E266DD9C8CEAB884F71134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0294874C2A2C1C8FD19A040DF9BBCD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF63505E14AC8922BF33172C87D68A0A /* FaceIdAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FaceIdAPI/FaceIdAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceIdAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceIdAPI/FaceIdAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FaceIdAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E517C12E0DAE38B827B546BFAAE11B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4230CB7084DF346FF99F3F66734D2D /* Pods-FaceIdAPI_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceIdAPI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceIdAPI_Tests/Pods-FaceIdAPI_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceIdAPI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1172DB69C93934FA9F8DFDF929557223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF63505E14AC8922BF33172C87D68A0A /* FaceIdAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FaceIdAPI/FaceIdAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceIdAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceIdAPI/FaceIdAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FaceIdAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A1A5DCD5196D883FA2AEE1FB1ED72DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041714D3651E6E512EF23E8A60B628F1 /* Pods-FaceIdAPI_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceIdAPI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceIdAPI_Tests/Pods-FaceIdAPI_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceIdAPI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38640CBD22F6C00AA6F20553803166ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6227A8561621F6DD9F1B118B08C3F7F1 /* Pods-FaceIdAPI_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceIdAPI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceIdAPI_Example/Pods-FaceIdAPI_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceIdAPI_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B66AF28873371243332377A1A7E73F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDB3F636EE479BC95C9DB1AA703FED7 /* Pods-FaceIdAPI_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceIdAPI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceIdAPI_Example/Pods-FaceIdAPI_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceIdAPI_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1110A79366875832F74A9EE4D14AFD39 /* Build configuration list for PBXNativeTarget "Pods-FaceIdAPI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38640CBD22F6C00AA6F20553803166ED /* Debug */,
+				B66AF28873371243332377A1A7E73F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4428E819A23D921ADC896225DB8D8126 /* Build configuration list for PBXNativeTarget "Pods-FaceIdAPI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1A5DCD5196D883FA2AEE1FB1ED72DE /* Debug */,
+				0E517C12E0DAE38B827B546BFAAE11B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8255A0213475CB279DE98E66A608D20E /* Build configuration list for PBXNativeTarget "FaceIdAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1172DB69C93934FA9F8DFDF929557223 /* Debug */,
+				0294874C2A2C1C8FD19A040DF9BBCD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

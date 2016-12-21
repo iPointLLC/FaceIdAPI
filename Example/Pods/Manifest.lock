@@ -1,0 +1,16 @@
+PODS:
+  - FaceIdAPI (0.1.0)
+
+DEPENDENCIES:
+  - FaceIdAPI (from `../`)
+
+EXTERNAL SOURCES:
+  FaceIdAPI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FaceIdAPI: 13427a3f85666fbca46401ce9e9ed82337bc5b3e
+
+PODFILE CHECKSUM: d981ba30a96c0ad1b18dac79d011dcd80588346c
+
+COCOAPODS: 1.1.1

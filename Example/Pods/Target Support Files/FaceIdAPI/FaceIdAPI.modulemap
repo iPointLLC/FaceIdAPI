@@ -1,0 +1,6 @@
+framework module FaceIdAPI {
+  umbrella header "FaceIdAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
