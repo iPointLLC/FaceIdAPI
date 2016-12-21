@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FaceIdAPI_Example' do
+  pod 'FaceIdAPI', :path => '../'
+
+  target 'FaceIdAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
